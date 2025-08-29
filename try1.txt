@@ -1,0 +1,10 @@
+#TYPE System.Management.Automation.PSCustomObject
+"Name","Score","Net"
+"czech Republic","70","14"
+"poland","75","15"
+"John Doe","85","17"
+"Jane Smith","90","18"
+"Bob Johnson","78","16"
+"Alice Williams","92","18"
+"Charlie Brown","88","17"
+"Charlie Brown1","85","17"
