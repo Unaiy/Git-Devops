@@ -63,7 +63,12 @@
     <div class="menu-item">🍝 Spaghetti Bolognese - $12</div>
     <div class="menu-item">🍰 Cheesecake - $6</div>
   </section>
-
+<form>
+  <input type="text" placeholder="Your Name" />
+  <input type="email" placeholder="Your Email" />
+  <textarea placeholder="Your Message"></textarea>
+  <button type="submit">Send</button>
+</form>
   <section class="contact" id="contact">
     <h2>Contact Us</h2>
     <p>📍 123 Flavor Street, Istanbul</p>
