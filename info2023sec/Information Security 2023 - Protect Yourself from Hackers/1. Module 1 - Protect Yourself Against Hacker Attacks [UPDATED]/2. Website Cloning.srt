@@ -1,0 +1,471 @@
+1
+00:00:03,550 --> 00:00:09,160
+Fig pages, a clone of a site or a fake page is simply a copy of the main login page of a famous and
+
+2
+00:00:09,160 --> 00:00:13,220
+normal site to be placed on a fake URL and to see victims.
+
+3
+00:00:13,240 --> 00:00:15,070
+There are two types of this attack.
+
+4
+00:00:15,100 --> 00:00:20,650
+There is the attack of clone sites on land where the hacker needs to be on the same network as the victim.
+
+5
+00:00:20,830 --> 00:00:26,470
+And there is the clone of sites on typosquatting links that are malicious URLs that can reach the victim
+
+6
+00:00:26,470 --> 00:00:27,520
+through emails.
+
+7
+00:00:27,730 --> 00:00:29,140
+Clone sites on land.
+
+8
+00:00:29,590 --> 00:00:34,540
+When the attacker clones sites on land, he needs to have access to the user's network.
+
+9
+00:00:34,750 --> 00:00:40,810
+For this, he can use, for example, a Wi-Fi network from the user's home, the Wi-Fi Anthony Network.
+
+10
+00:00:40,900 --> 00:00:46,360
+If someone discovers the password and connects to the network, he will be on a network of devices.
+
+11
+00:00:46,390 --> 00:00:51,100
+The notebook or computer will be together with the devices of all the people who are connected to that
+
+12
+00:00:51,100 --> 00:00:51,850
+network.
+
+13
+00:00:52,000 --> 00:00:56,800
+And when connecting the router sends this new user an IP number that is nothing more than a number to
+
+14
+00:00:56,800 --> 00:00:58,750
+locate the device on that network.
+
+15
+00:00:59,430 --> 00:01:00,480
+IP address.
+
+16
+00:01:00,510 --> 00:01:02,490
+There are two types of IP address.
+
+17
+00:01:02,520 --> 00:01:08,070
+There is the client IP address that will request files and there is the server IP address that will
+
+18
+00:01:08,070 --> 00:01:12,240
+respond to client requests by sending the files that the client requested.
+
+19
+00:01:12,600 --> 00:01:13,500
+Client IP.
+
+20
+00:01:13,530 --> 00:01:22,080
+For example, if the user 192.168 1.7 entered his browser and requested pages from Facebook, the browser
+
+21
+00:01:22,080 --> 00:01:27,390
+then contacts Facebook, which has this server IP and requests the files from the server.
+
+22
+00:01:27,420 --> 00:01:30,930
+Facebook's server then sends the files for the user to see.
+
+23
+00:01:31,290 --> 00:01:36,570
+So all users on a common local network, a Wi-Fi or wired network are clients.
+
+24
+00:01:36,570 --> 00:01:39,540
+They only receive the pages and files they request.
+
+25
+00:01:39,840 --> 00:01:40,890
+Server IP.
+
+26
+00:01:41,430 --> 00:01:48,540
+An attacker can turn his client IP into a server so the same user who has the IP 1.7 can now also send
+
+27
+00:01:48,570 --> 00:01:49,260
+files.
+
+28
+00:01:49,590 --> 00:01:52,970
+So after this user turns his computer into a server on the Wi-Fi.
+
+29
+00:01:52,980 --> 00:01:59,920
+Anthony Network all users on that network who access the IP 1.7 will receive files from that user's
+
+30
+00:01:59,920 --> 00:02:00,700
+computer.
+
+31
+00:02:00,790 --> 00:02:04,390
+And it is in this context that the fake site attack happens.
+
+32
+00:02:04,540 --> 00:02:07,450
+The sites we see are files with an HAML extension.
+
+33
+00:02:07,480 --> 00:02:13,000
+The attacker can clone this original site haml file and put a keylogger script behind that page.
+
+34
+00:02:13,030 --> 00:02:17,950
+This script will record all the keys typed by the user and send them all to the hacker.
+
+35
+00:02:18,340 --> 00:02:23,710
+So if the attacker puts this Haml file with this script on his computer that is now a server, the people
+
+36
+00:02:23,710 --> 00:02:28,750
+who access it will have access to this haml file, and if they enter their information, the hacker
+
+37
+00:02:28,750 --> 00:02:31,630
+will have the email and password shortly thereafter.
+
+38
+00:02:32,020 --> 00:02:37,060
+But for this attack to work, the victim needs to manually enter this IP in the browser.
+
+39
+00:02:37,060 --> 00:02:40,150
+And no user would do this because it is not normal.
+
+40
+00:02:40,300 --> 00:02:45,280
+The hacker could open the page on the user's computer, but for that you would already need to have
+
+41
+00:02:45,280 --> 00:02:47,040
+access to the same computer.
+
+42
+00:02:47,050 --> 00:02:50,860
+And if he already has access, he doesn't need to create a fake site.
+
+43
+00:02:50,890 --> 00:02:56,200
+He just needs to activate the keylogger without needing the clone DNS service.
+
+44
+00:02:56,230 --> 00:02:58,090
+There is something called DNS.
+
+45
+00:02:58,120 --> 00:03:00,490
+This service translates a domain to a server.
+
+46
+00:03:00,490 --> 00:03:06,670
+IP domain is, for example, Google.com, Facebook.com, Amazon.com.
+
+47
+00:03:06,670 --> 00:03:12,550
+It is an easy name that a person can register with abc.com, BR and other available extensions.
+
+48
+00:03:12,610 --> 00:03:15,640
+Each server has its respective IP on the internet.
+
+49
+00:03:15,670 --> 00:03:21,550
+The IP is a unique number that locates the devices and for the user to access these servers, he will
+
+50
+00:03:21,550 --> 00:03:25,490
+need to memorize the IP number of each server he wants to access.
+
+51
+00:03:25,510 --> 00:03:31,840
+So to access the Facebook server, he needs to enter the complete IP number of Facebook test entering
+
+52
+00:03:31,840 --> 00:03:32,680
+Facebook IP.
+
+53
+00:03:33,310 --> 00:03:35,680
+Do you know how many sites exist on the Internet?
+
+54
+00:03:35,710 --> 00:03:40,450
+In January 2019, the Internet had 1.9 billion sites.
+
+55
+00:03:40,480 --> 00:03:45,250
+Now imagine having to learn the IP of all these servers to be able to access the sites.
+
+56
+00:03:45,280 --> 00:03:46,480
+It would be horrible.
+
+57
+00:03:46,630 --> 00:03:49,500
+So that the user does not need to memorize these numbers.
+
+58
+00:03:49,510 --> 00:03:52,510
+There is the DNS service that links a domain to an IP.
+
+59
+00:03:53,170 --> 00:03:58,450
+So Internet DNS takes Facebook's IP and stores it in the Facebook.com box.
+
+60
+00:03:58,810 --> 00:04:04,570
+So when a client wants to access Facebook, the browser will communicate with the DNS service requesting
+
+61
+00:04:04,600 --> 00:04:07,990
+to know which IP to access the Facebook.com server.
+
+62
+00:04:08,320 --> 00:04:14,110
+DNS will open the box, check the IP that is in the box, give it to the browser and the browser will
+
+63
+00:04:14,110 --> 00:04:17,140
+send the message to this IP requesting the files.
+
+64
+00:04:17,140 --> 00:04:21,130
+And finally the server will respond by sending the requested files.
+
+65
+00:04:21,280 --> 00:04:23,920
+So every site on the internet has its own IP.
+
+66
+00:04:24,250 --> 00:04:29,830
+Facebook, Google, Amazon, YouTube, Twitter, Wikipedia, AliExpress and etcetera.
+
+67
+00:04:30,130 --> 00:04:31,450
+DNS Spoof.
+
+68
+00:04:31,600 --> 00:04:37,630
+There is an attack called DNS Spoof, which consists of changing the IP of an original site and putting
+
+69
+00:04:37,630 --> 00:04:38,620
+the attacker's IP.
+
+70
+00:04:39,310 --> 00:04:45,490
+So in a DNS spoof attack on the WiFi Anthony network, there is the Facebook.com domain that redirects
+
+71
+00:04:45,490 --> 00:04:46,480
+to the Facebook IP.
+
+72
+00:04:46,960 --> 00:04:52,840
+The attacker doing the DNS spoof would be on the network, manipulating the DNS service to change Facebook's
+
+73
+00:04:52,870 --> 00:04:55,150
+IP and put his IP in its place.
+
+74
+00:04:55,150 --> 00:05:00,250
+So now if someone on Anthony's network types Facebook.com in the browser, they will have the Facebook
+
+75
+00:05:00,250 --> 00:05:00,820
+page.
+
+76
+00:05:00,820 --> 00:05:05,290
+But when they enter the email and password, the data will be sent to the attacker.
+
+77
+00:05:05,470 --> 00:05:07,450
+Clone sites with Typosquatting.
+
+78
+00:05:07,480 --> 00:05:12,880
+The second type of attack is the clone of sites with their own domains where the attacker creates a
+
+79
+00:05:12,880 --> 00:05:16,660
+URL similar to the original and puts the clone files inside it.
+
+80
+00:05:16,690 --> 00:05:18,700
+This is called Typosquatting.
+
+81
+00:05:18,910 --> 00:05:23,140
+Typosquatting is a URL hijacking attack that takes advantage of URL.
+
+82
+00:05:23,140 --> 00:05:23,770
+Misspellings.
+
+83
+00:05:23,770 --> 00:05:29,170
+Where a hacker can create clone sites of the original and gain information from users who end up falling
+
+84
+00:05:29,170 --> 00:05:30,280
+into these URLs.
+
+85
+00:05:30,310 --> 00:05:36,670
+For example, a person who will type Google.com with two O's and types Google.com with three O's.
+
+86
+00:05:36,970 --> 00:05:44,770
+Typosquatting levels orthographic error replacing a with e addition of character putting ins different
+
+87
+00:05:44,770 --> 00:05:52,660
+extension in case you didn't know.com and.com.org or org or any other extension are completely different
+
+88
+00:05:52,660 --> 00:05:56,620
+websites and people who don't know this are at serious risk of being ripped off.
+
+89
+00:05:56,950 --> 00:05:58,890
+Phishing subdomain put a sub.
+
+90
+00:05:58,930 --> 00:06:03,040
+Domain to try to impersonate a company in a rural that does not belong to the company.
+
+91
+00:06:03,400 --> 00:06:08,890
+Group sites use hyphen in the URLs to also try to trick people impersonating a company.
+
+92
+00:06:09,480 --> 00:06:11,720
+Orthographic errors.
+
+93
+00:06:11,730 --> 00:06:17,250
+In addition to typing errors, the URL Hijacking Attack also uses characters that look like others to
+
+94
+00:06:17,250 --> 00:06:18,390
+form a URL.
+
+95
+00:06:18,420 --> 00:06:23,760
+This attack is called a Homographic attack replaced I with a replace him with ERN.
+
+96
+00:06:23,970 --> 00:06:28,140
+It may be that someone might report that they noticed that Vern is not a gnome.
+
+97
+00:06:28,260 --> 00:06:34,470
+However, when we quickly look over the URL, we can actually confuse the ERN and see an in its place
+
+98
+00:06:34,470 --> 00:06:36,960
+and end up clicking and falling for a scam.
+
+99
+00:06:37,640 --> 00:06:42,710
+This is very powerful in email inboxes where no one pays attention to these details.
+
+100
+00:06:43,060 --> 00:06:44,210
+Misspelling.
+
+101
+00:06:44,360 --> 00:06:49,220
+There are cases where misspelling can also be used for marketing, and it is called misspelling.
+
+102
+00:06:49,430 --> 00:06:54,500
+There are several companies that have grown because they use spelling errors in their competitor's domains
+
+103
+00:06:54,500 --> 00:06:56,630
+to redirect customers to their site.
+
+104
+00:06:56,660 --> 00:07:03,500
+For example, Verizon, Lufthansa and in 2016, an evangelical named Jerry Falwell attempted to sue
+
+105
+00:07:03,500 --> 00:07:08,000
+to own a domain that was imitating his blog and spreading hate against homosexuals.
+
+106
+00:07:08,210 --> 00:07:13,610
+His site was falwell.com and the fake site was falwell.com with two URLs.
+
+107
+00:07:13,760 --> 00:07:18,080
+However, he did not win the case and the guy who spread hate continued with the domain.
+
+108
+00:07:18,350 --> 00:07:22,730
+Lego paid over $500,000 in cases of typosquatting domains.
+
+109
+00:07:22,760 --> 00:07:26,840
+There were over 309 cases of domains pretending to be Lego.
+
+110
+00:07:27,110 --> 00:07:33,560
+Google has more than 32 domains registered with spelling errors in the word Google, because in 2011,
+
+111
+00:07:33,590 --> 00:07:37,290
+the domain with two guys was registered and it was a fishing site.
+
+112
+00:07:37,500 --> 00:07:42,330
+Google managed to take down this site, and after that they did research and bought several domains
+
+113
+00:07:42,330 --> 00:07:44,580
+with spelling errors of their original domain.
+
+114
+00:07:44,820 --> 00:07:50,610
+Google itself created a page for online site administrators where it explains five reasons to have more
+
+115
+00:07:50,610 --> 00:07:54,090
+than one domain, and one of the factors is spelling errors.
+
+116
+00:07:54,480 --> 00:07:59,850
+All major sites today have typosquatting domains to prevent users from falling into phishing scams of
+
+117
+00:07:59,850 --> 00:08:05,520
+this type, such as Netflix, Amazon and Facebook, which also have domains with spelling errors of
+
+118
+00:08:05,520 --> 00:08:06,690
+their main domains.

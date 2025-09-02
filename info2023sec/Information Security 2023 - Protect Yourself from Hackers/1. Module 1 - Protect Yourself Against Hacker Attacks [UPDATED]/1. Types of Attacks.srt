@@ -1,0 +1,39 @@
+1
+00:00:00,080 --> 00:00:02,660
+So let's now look at some attacks that you may encounter.
+
+2
+00:00:02,840 --> 00:00:07,990
+We always talk about how hackers take over our accounts and sell viruses on our computers.
+
+3
+00:00:08,000 --> 00:00:12,740
+But a question that nobody ever asks is like, how does the hacker manage to reach me?
+
+4
+00:00:12,920 --> 00:00:15,350
+Let's try to answer that question today.
+
+5
+00:00:15,650 --> 00:00:21,110
+We will then talk about attacks involving site cloning, spam, adware, keylogger, WiFi hacker and
+
+6
+00:00:21,110 --> 00:00:22,070
+Google hacking.
+
+7
+00:00:22,400 --> 00:00:27,170
+In addition, we will see leaked databases in how to check if our emails have been leaked on the internet
+
+8
+00:00:27,170 --> 00:00:29,570
+and if they come with passwords that we use.
+
+9
+00:00:29,600 --> 00:00:31,820
+And we will also see phishing emails.
+
+10
+00:00:31,850 --> 00:00:36,830
+Don't worry if you didn't understand, we will move forward little by little to understand each detail.
